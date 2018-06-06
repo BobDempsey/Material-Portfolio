@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#303f9f">
+  <link rel="icon" type="image/x-icon" href="https://bobd.me/img/favicon.ico" />
+  <title>Bob Dempsey | Front End Web Developer</title>
+</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css">
+
+<body>
+  <div class="overlay" onclick="closeNav()"></div>
+
+  <!-- header -->
+  <header>
+    <h2>
+      <a href="#">
+        <span>Bob Dempsey
+        </span>
+      </a>
+    </h2>
+    <!-- app bar nav links -->
+    <div id="navLinks">
+      <ul>
+        <li>
+          <a href="https://bobd.me/portfolio">
+            <i class="fas fa-th"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/skills">
+            <i class="fas fa-code"></i>Skills</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/education">
+            <i class="fas fa-graduation-cap"></i>Education</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/experience">
+            <i class="fas fa-briefcase"></i>Experience</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/references">
+            <i class="fas fa-comments"></i>References</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1lWxlG0bf39xyEe1cIKnWUN0xRvGtnHnA/view?usp=sharing" target="_blank">
+            <i class="fas fa-file-pdf"></i>Resume</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/contact">
+            <i class="fas fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- app bar nav links -->
+    <a href="#" class="hamburger" onclick="openNav()">
+      <i class="fas fa-lg fa-bars"></i>
+    </a>
+  </header>
+
+  <!-- header -->
+
+  <!-- nav drawer -->
+
+  <nav id="drawer">
+
+    <div id="avatar">
+      <img src="/img/avatar.jpg" alt="Bob Dempsey Avatar Img">
+      <h2>Bob Dempsey</h2>
+      <p>Front End Web Developer & Webmaster</p>
+      <div id="socialIcons">
+        <a href="https://www.linkedin.com/in/bob-dempsey/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://codepen.io/BobDempsey/" target="_blank">
+          <i class="fab fa-codepen"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/6797367/bob-dempsey" target="_blank">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
+        <a href="https://github.com/BobDempsey" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <div id="drawerContent">
+
+      <ul>
+        <li>
+          <a class="first" href="https://bobd.me">
+            <i class="fas fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/portfolio">
+            <i class="fas fa-th"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/skills">
+            <i class="fas fa-code"></i>Skills</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/education">
+            <i class="fas fa-graduation-cap"></i>Education</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/experience">
+            <i class="fas fa-briefcase"></i>Experience</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/references">
+            <i class="fas fa-comments"></i>References</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1lWxlG0bf39xyEe1cIKnWUN0xRvGtnHnA/view?usp=sharing" target="_blank">
+            <i class="fas fa-file-pdf"></i>Resume</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/contact">
+            <i class="fas fa-envelope"></i>Contact</a>
+        </li>
+
+      </ul>
+      <hr>
+      <ul>
+        <li>
+          <a href="https://bobd.me/wp/cv" target="_blank">
+            <i class="fab fa-wordpress"></i>WordPress CV</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/podcast">
+            <i class="fas fa-podcast"></i>Podcast</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/wp/blog" target="_blank">
+            <i class="fas fa-edit"></i>Blog</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/articles">
+            <i class="far fa-newspaper"></i>Published Articles</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/about">
+            <i class="fas fa-info-circle"></i>About</a>
+        </li>
+        <li>
+          <a href="https://bobd.us12.list-manage.com/subscribe?u=388cce226dfd661e9bee77b60&id=6dc784d168">
+            <i class="fas fa-bell"></i>Subscribe</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- drawer content -->
+  </nav>
+  <!-- nav drawer -->
+
+  <!-- main -->
+  <main>
+
+    <!-- hero card -->
+    <section id="hero" class="card">
+      <h1>Bob Dempsey</h1>
+      <h4>Front End Web Developer & Webmaster</h4>
+      <h5>Websites, Web Apps, Custom WP Themes, User Retention, Email Marketing, Hosting</h5>
+    </section>
+    <!-- hero card -->
+
+    <!-- portfolio -->
+    <div class="card">
+      <h2>Custom WP, Firebase, &amp; Bootstrap Websites &amp; Web Apps</h2>
+      <h3>
+        <a href="https://bobd.me/portfolio">Portfolio</a>
+      </h3>
+    </div>
+    <!-- portfolio -->
+
+    <!-- skills -->
+    <div class="card">
+      <h2>Custom Themes, Reactive Forms, Data Flows, Privileged Content, eCommerce</h2>
+      <h3>
+        <a href="https://bobd.me/skills">Skills</a>
+      </h3>
+    </div>
+    <!-- skills -->
+
+    <!-- education -->
+    <div class="card">
+      <h2>Full Stack Web Development @ UCF</h2>
+      <h3>
+        <a href="https://bobd.me/education">Education</a>
+      </h3>
+    </div>
+    <!-- education -->
+
+    <!-- experience -->
+    <div class="card">
+      <h2>5 Years Web Design, Web Development, & Webmaster Experience</h2>
+      <h3>
+        <a href="https://bobd.me/experience">Experience</a>
+      </h3>
+    </div>
+    <!-- experience -->
+
+    <!-- references -->
+    <div class="card">
+      <h2>Recommended & Endorsed by Colleagues</h2>
+      <h3>
+        <a href="https://bobd.me/references">References</a>
+      </h3>
+    </div>
+    <!-- references -->
+
+    <!-- resume -->
+    <div class="card">
+      <h2>Current Web Technologies & Standards</h2>
+      <h3>
+        <a href="https://drive.google.com/file/d/1lWxlG0bf39xyEe1cIKnWUN0xRvGtnHnA/view?usp=sharing" target="_blank">Resume</a>
+      </h3>
+    </div>
+    <!-- resume -->
+
+    <!-- articles -->
+    <div class="card">
+      <h2>Published Writer</h2>
+      <h3>
+        <a href="https://bobd.me/articles">Articles</a>
+      </h3>
+    </div>
+    <!-- articles -->
+
+    <!-- contact -->
+    <div class="card">
+      <h2>Effective Communicator & Trainer</h2>
+      <h3>
+        <a href="https://bobd.me/contact">Contact Me</a>
+      </h3>
+    </div>
+    <!-- contact -->
+    </section>
+
+
+  </main>
+  <!-- main -->
+
+  <!-- mailchimp js -->
+  <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script> -->
+  <!-- mailchimp js -->
+  <script src="/js/main.js"></script>
+
+  <footer>
+    <div>&copy; 2018 |
+      <a href="https://bobd.me">BobD.me</a>
+    </div>
+    <a onclick="scrollWinTop()">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </footer>
+</body>
+
+</html>

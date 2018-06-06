@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#303f9f">
+  <link rel="icon" type="image/x-icon" href="https://bobd.me/img/favicon.ico" />
+  <title>Bob Dempsey | Front End Web Developer</title>
+</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css">
+
+<body>
+  <div class="overlay" onclick="closeNav()"></div>
+
+  <!-- header -->
+  <header>
+    <h2>
+      <a href="#">
+        <span>Bob Dempsey
+        </span>
+      </a>
+    </h2>
+    <!-- app bar nav links -->
+    <div id="navLinks">
+      <ul>
+        <li>
+          <a href="https://bobd.me/portfolio">
+            <i class="fas fa-th"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/skills">
+            <i class="fas fa-code"></i>Skills</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/education">
+            <i class="fas fa-graduation-cap"></i>Education</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/experience">
+            <i class="fas fa-briefcase"></i>Experience</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/references">
+            <i class="fas fa-comments"></i>References</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1lWxlG0bf39xyEe1cIKnWUN0xRvGtnHnA/view?usp=sharing" target="_blank">
+            <i class="fas fa-file-pdf"></i>Resume</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/contact">
+            <i class="fas fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- app bar nav links -->
+    <a href="#" class="hamburger" onclick="openNav()">
+      <i class="fas fa-lg fa-bars"></i>
+    </a>
+  </header>
+
+  <!-- header -->
+
+  <!-- nav drawer -->
+
+  <nav id="drawer">
+
+    <div id="avatar">
+      <img src="/img/avatar.jpg" alt="Bob Dempsey Avatar Img">
+      <h2>Bob Dempsey</h2>
+      <p>Front End Web Developer & Webmaster</p>
+      <div id="socialIcons">
+        <a href="https://www.linkedin.com/in/bob-dempsey/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://codepen.io/BobDempsey/" target="_blank">
+          <i class="fab fa-codepen"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/6797367/bob-dempsey" target="_blank">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
+        <a href="https://github.com/BobDempsey" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <div id="drawerContent">
+
+      <ul>
+        <li>
+          <a class="first" href="https://bobd.me">
+            <i class="fas fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/portfolio">
+            <i class="fas fa-th"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/skills">
+            <i class="fas fa-code"></i>Skills</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/education">
+            <i class="fas fa-graduation-cap"></i>Education</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/experience">
+            <i class="fas fa-briefcase"></i>Experience</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/references">
+            <i class="fas fa-comments"></i>References</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1lWxlG0bf39xyEe1cIKnWUN0xRvGtnHnA/view?usp=sharing" target="_blank">
+            <i class="fas fa-file-pdf"></i>Resume</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/contact">
+            <i class="fas fa-envelope"></i>Contact</a>
+        </li>
+
+      </ul>
+      <hr>
+      <ul>
+        <li>
+          <a href="https://bobd.me/wp/cv" target="_blank">
+            <i class="fab fa-wordpress"></i>WordPress CV</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/podcast">
+            <i class="fas fa-podcast"></i>Podcast</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/wp/blog" target="_blank">
+            <i class="fas fa-edit"></i>Blog</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/articles">
+            <i class="far fa-newspaper"></i>Published Articles</a>
+        </li>
+        <li>
+          <a href="https://bobd.me/about">
+            <i class="fas fa-info-circle"></i>About</a>
+        </li>
+        <li>
+          <a href="https://bobd.us12.list-manage.com/subscribe?u=388cce226dfd661e9bee77b60&id=6dc784d168">
+            <i class="fas fa-bell"></i>Subscribe</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- drawer content -->
+  </nav>
+  <!-- nav drawer -->
+
+  <!-- main -->
+  <main>
+
+    <!-- hero card -->
+    <section id="hero" class="card">
+      <h1>Portfolio</h1>
+      <h4>Front End Web Developer & Webmaster</h4>
+      <h5>Websites, Web Apps, Custom WP Themes, User Retention, Email Marketing, Hosting</h5>
+    </section>
+    <!-- hero card -->
+
+    <!-- section header > personal apps -->
+    <div class="sectionHeader">
+      <h2>Personal Apps</h2>
+    </div>
+    <!-- section header > personal apps -->
+
+    <!-- omdb -->
+    <div class="card">
+      <h2>
+        <a href="https://bobd.me/apps/omdb-movie-search/" target="_blank">OMDB Movie Search</a>
+      </h2>
+      <p>
+        Search for any movie using the OMDB API, jQuery, Axios, Bootstrap 4, Local Session Storage, & Material Design.
+      </p>
+    </div>
+    <!-- omdb -->
+
+    <!-- number facts -->
+    <div class="card">
+      <h2>
+        <a href="https://bobd.me/apps/number-facts/" target="_blank">Number Facts Generator</a>
+      </h2>
+      <p>
+        Generate a random fact about any number using the Numbers Fetch API, JavaScript, & Material Design.
+      </p>
+    </div>
+    <!-- number facts -->
+
+    <!-- image gallery -->
+    <div class="card">
+      <h2>
+        <a href="https://bobd.me/apps/image-gallery/" target="_blank">Modern Image Gallery</a>
+      </h2>
+      <p>
+        A modern image gallery using ES6, CSS Grid, CSS Variables, & Material Design.
+      </p>
+    </div>
+    <!-- image gallery -->
+
+    <!-- section header > client websites -->
+    <div class="sectionHeader">
+      <h2>Client Websites</h2>
+    </div>
+    <!-- section header > client websites -->
+
+    <!-- sav -->
+    <div class="card">
+      <h2>
+        <a href="https://silentauctionvacations.com/" target="_blank">Silent Auction Vacations</a>
+      </h2>
+      <p>
+        Complete Web Presence Overhaul (WP), Custom Forms & Data Flows (Formidable), Privileged Content (WPMembers), Opt Ins & Mailing
+        Lists (MailChimp), Content & Blog Creation, SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP), CRM Integration & Customization (Zoho), G Suite Mgmt
+      </p>
+    </div>
+    <!-- sav -->
+
+    <!-- mrs -->
+    <div class="card">
+      <h2>
+        <a href="https://myrealestatesystem.com/" target="_blank">My Real Estate System</a>
+      </h2>
+      <p>
+        All Websites & Web Apps Reworked (WP), Custom Forms & Data Flows (Formidable), Privileged Content (WPMembers), Opt Ins &
+        Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management & Backups (ManageWP),
+        CRM Integration & Customization (Active Campaign)
+      </p>
+    </div>
+    <!-- mrs -->
+
+    <!-- sunlight -->
+    <div class="card">
+      <h2>
+        <a href="https://www.sunlightcreditrepair.com/" target="_blank">Sunlight Credit Repair</a>
+      </h2>
+      <p>
+        Website Reworked (WP), Custom Forms (Formidable, Privileged Content (WPMembers), Opt Ins & Mailing Lists (MailChimp), SEO
+        (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management & Backups (ManageWP), CRM Integration & Customization
+        (Active Campaign)
+      </p>
+    </div>
+    <!-- sunlight -->
+
+    <!-- 2BAnonymous -->
+    <div class="card">
+      <h2>
+        <a href="https://2banonymous.com/" target="_blank">2BAnonymous</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- 2BAnonymous -->
+
+    <!-- Michigan Hearing -->
+    <div class="card">
+      <h2>
+        <a href="http://michiganhearing.com/" target="_blank">Michigan Hearing</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Michigan Hearing -->
+
+    <!-- California Jam -->
+    <div class="card">
+      <h2>
+        <a href="https://www.californiajam.org/" target="_blank">California Jam</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- California Jam -->
+
+    <!-- Sufii Day Spa -->
+    <div class="card">
+      <h2>
+        <a href="http://www.sufiidayspa.com/Sufii Day Spa" target="_blank">Sufii Day Spa</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Sufii Day Spa -->
+
+    <!-- Justin Ailey -->
+    <div class="card">
+      <h2>
+        <a href="https://justinaileydfwrealtor.com/" target="_blank">Justin Ailey</a>
+      </h2>
+      <p>
+        Personal Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb),
+        Management & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Justin Ailey -->
+
+    <!-- Sharifi Motivations -->
+    <div class="card">
+      <h2>
+        <a href="http://saumsharifi.com/" target="_blank">Sharifi Motivations</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Sharifi Motivations -->
+
+    <!-- Pearl White Events -->
+    <div class="card">
+      <h2>
+        <a href="https://www.pearlwhiteevents.com/home" target="_blank">Pearl White Events</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Pearl White Events -->
+
+    <!-- Riant Films -->
+    <div class="card">
+      <h2>
+        <a href="http://www.riantfilms.com/" target="_blank">Riant Films</a>
+      </h2>
+      <p>
+        Company Website (WP), Opt Ins & Mailing Lists (MailChimp), SEO (Yoast), Search Console, Analytics, Hosting (LiquidWeb), Management
+        & Backups (ManageWP)
+      </p>
+    </div>
+    <!-- Riant Films -->
+
+    </section>
+  </main>
+  <!-- main -->
+
+  <!-- mailchimp js -->
+  <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script> -->
+  <!-- mailchimp js -->
+  <script src="/js/main.js"></script>
+
+  <footer>
+    <div>&copy; 2018 |
+      <a href="https://bobd.me">BobD.me</a>
+    </div>
+    <a onclick="scrollWinTop()">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </footer>
+</body>
+
+</html>
