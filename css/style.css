@@ -382,6 +382,11 @@ main {
   box-shadow: var(--box-shadow-light-small);
 }
 
+#featuredOn {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
 /* Map Card */
 
 #mapCard {
@@ -585,6 +590,9 @@ textarea:focus {
   }
 }
 
+@media (min-width: 768px) {
+}
+
 @media (min-width: 981px) {
   main {
     display: grid;
@@ -651,6 +659,11 @@ textarea:focus {
 
   header ul li a:hover {
     background: var(--primary-dark);
+  }
+
+  #featuredOn {
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 }
 
