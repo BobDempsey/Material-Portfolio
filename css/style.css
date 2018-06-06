@@ -35,9 +35,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   color: var(--primary-text);
   background: var(--very-light-grey);
+  margin-bottom: 100px;
 }
 
 body::-webkit-scrollbar {
@@ -129,6 +135,12 @@ footer {
   color: #fff;
   display: grid;
   grid-template-columns: 1fr 2rem;
+  /* sticky footer */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* sticky footer */
 }
 
 footer div,
