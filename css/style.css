@@ -341,7 +341,7 @@ main {
   font-size: 105%;
 }
 
-.card img {
+.card #avatarImg {
   border-radius: 50%;
   max-width: 100px;
   display: block;
