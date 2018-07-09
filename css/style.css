@@ -62,7 +62,7 @@ body {
 /* body helpers to add padding for sticky footer */
 
 body::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.70rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -237,7 +237,7 @@ header #navLinks {
 }
 
 #drawer::-webkit-scrollbar {
-  width: 0.4rem;
+  width: 0.5rem;
 }
 
 #drawer::-webkit-scrollbar-track {
@@ -324,7 +324,7 @@ header #navLinks {
 
 main {
   width: 95vw;
-  max-width: 85rem;
+  max-width: 80rem; /*1280px*/
   margin: 5rem auto auto auto;
   position: relative;
   z-index: 0;
